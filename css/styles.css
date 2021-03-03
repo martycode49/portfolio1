@@ -136,4 +136,14 @@ hr {
 /* contact */
 .footer {
     background-color: #ffc799;
+    display: flex;
+    justify-content: center;
+}
+
+.social {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
 }

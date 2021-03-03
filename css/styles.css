@@ -1,0 +1,139 @@
+/* Color Theme Swatches in Hex */
+.Explore-1-hex { color: #CC7875; }
+.Explore-2-hex { color: #994441; }
+.Explore-3-hex { color: #FF99F2; }
+.Explore-4-hex { color: #D3FF8E; }
+.Explore-5-hex { color: #C8CC66; }
+
+@charset "UTF-8";
+
+/* font-family: 'Raleway',sans-serif; */
+body, html {
+    padding : 0;
+    margin: 0;
+}
+body {
+    font-family: 'Raleway',sans-serif;
+}
+a {
+    text-decoration: none;
+
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+hr {
+    width: 10%;
+    size: 10px;
+    text-align: center;
+    background-color: #FF99F2; /*
+    width: 10%;
+    size: 10px;
+    border: none;
+    box-shadow: none;
+    background-color: #FF99F2;
+    text-align: center;*/
+}
+
+/* header https://color.adobe.com/fr/ */
+
+.header {
+    background-color : #CC7875;
+    height: 70px;
+    line-height: 70px;
+}
+
+.logo {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.menu{
+    float: right;
+
+}
+.menu a {
+    color: #fff;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    color: #FF99F2;
+}
+
+/* bannière */
+.banner {
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban {
+    width: 100%;
+    max-width: 100%;
+}
+.ban img {
+    width: 100%;
+    max-width: 100%; 
+    position : relative;
+}
+
+.inner-banner {
+    position: absolute;
+    top:40%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1 {
+    color: #fff;
+    text-shadow: 1px 1px 20px #000;
+}
+
+.inner-banner .btn-custom {
+    background-color: #3498d8;
+    color: #fff;
+}
+
+.inner-banner .btn-custom:hover {
+    background-color: #FF99F2;
+}
+
+/* about */
+#about {
+    text-align: center;
+}
+
+.about article {
+    margin-top: 10%;
+}
+
+.about article h2 {
+    text-align: center;
+}
+
+/* portfolio */
+.portfolio {
+    background-color: #eeeeee;
+    height: 800px;
+    text-align: center;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+.portfolio .itemfolio {
+    height: 280px;
+    background-color: #ffc799;
+}
+/* contact */
+.footer {
+    background-color: #ffc799;
+}
